@@ -3,6 +3,27 @@ entries:
   pact-proker:
   - apiVersion: v2
     appVersion: 2.87.0.0
+    created: "2021-10-25T15:16:41.802082337Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.9.5
+    description: A Helm chart for Kubernetes to install Pact Broker
+    digest: 131425a2e0580678ee412d9fadd6a638c890609a9581b2dd5e5f555c06076aab
+    home: https://byahia.github.io/pact-broker-helm-chart/
+    maintainers:
+    - name: Bilel Yahia
+      url: https://github.com/byahia
+    name: pact-proker
+    sources:
+    - https://github.com/byahia/pact-broker-helm-chart/tree/main/charts/pact-broker
+    type: application
+    urls:
+    - https://github.com/byahia/pact-broker-helm-chart/releases/download/pact-proker-0.1.4/pact-proker-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 2.87.0.0
     created: "2021-10-25T08:37:16.974590415Z"
     dependencies:
     - condition: postgresql.enabled
@@ -73,4 +94,4 @@ entries:
     urls:
     - https://github.com/byahia/pact-broker-helm-chart/releases/download/pact-proker-0.1.0/pact-proker-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-25T08:37:16.974629915Z"
+generated: "2021-10-25T15:16:41.802100137Z"
